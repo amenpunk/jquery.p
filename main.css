@@ -1,0 +1,21 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+
+main{
+    background-color:wheat;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    padding-top: 40%;
+}
+
+.contenedor{
+    background-color: teal;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    padding:50px;
+
+}
