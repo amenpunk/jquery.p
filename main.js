@@ -7,7 +7,9 @@ $(document).ready(function() {
         //console.log(value);
         //console.log(value);
         var color = selected.attr('data-price');
-    $('#resultado').css('background-color',color);
+        $('#resultado').css('background-color',color);
+        $('#resultado').html(color + '<br>'+ value);
+
 
     })
 });
