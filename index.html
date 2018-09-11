@@ -2,32 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="main.js"></script>   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    
 </head>
 <body>
     <main>
-
-        <article id="example" class="contenedor">
-            <select>
-                <option value="verde">Verde</option>
-                <option value="amarillo">Amarillo</option>
-                <option value="azul">Azul</option>
+ 
+        <article id="example" class="container">
+            <select id="place">
+                <option value="verde" data-price="#00FF00">Verde</option>
+                <option value="amarillo" data-price="#F7FE2E">Amarillo</option>
+                <option value="azul" data-price="#0000FF">Azul</option>
             </select>
+            <button>Pick</button>
         </article>
 
-        <article id="resultado" class="contenedor">
-            <section>
-                colores seleccionados
-            </section>
+        <article id="resultado" class="container">
+            UNO
+        </article>
+
+        <article id="resultado" class="container">
+            dos
         </article>
 
     </main>
-
-    <script src="main.js"></script>
 </body>
 </html>
