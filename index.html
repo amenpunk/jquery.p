@@ -12,7 +12,8 @@
 <body>
     <main>
  
-        <article id="example" class="container">
+        <article id="example" class="container" style="background-color: firebrick">
+            <figcaption>Pick a color</figcaption>
             <select id="place">
                 <option value="Verde" data-price="#00FF00">Verde</option>
                 <option value="Amarillo" data-price="#F7FE2E">Amarillo</option>
@@ -29,8 +30,22 @@
             <input type="text" id="texto">  
             
             <div id="mitxt"></div>
-
         </article>
+
+        <!--Things to do-->
+
+        <article class="lista container">
+            <figcaption>Things to learn</figcaption>
+            <div>
+                <input type="text" id="txt">
+                <input id="bt2" type="button" value="ADD">
+            </div>
+           
+            <ul>
+                <li>Node Js<p id="del">X</p></li>
+            </ul>
+        </article>
+
 
     </main>
 </body>

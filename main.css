@@ -3,18 +3,20 @@
     margin: 0em;
 }
 
-main{
-    background-color:wheat;
-    margin: 5%;
-    width: 90%;
-    height: 90%;
-    padding-top: 5%;
-}
-
 .container{
     background-color: teal;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 15px;
-    padding:50px;
+    padding: 5%;
+}
+
+.lista p{
+    float:right;
+    color: red;
+}
+
+.lista{
+    font-family: fantasy;
+    color:white;
+
 }

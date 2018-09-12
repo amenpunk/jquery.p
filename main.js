@@ -15,4 +15,14 @@ $(document).ready(function() {
 
     });
 
+    $(".lista").on('click','#bt2',function(){
+        var valor = $('#txt').val();
+        var htadd = '<li>'+valor+'<p id="del">X</p></li>'
+        $('.lista').append(htadd);
+    });
+
+    $('.lista').on('click','#del',function(){
+        var parent = $(this).parent().remove();
+    });
+
 });
