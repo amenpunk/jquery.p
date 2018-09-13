@@ -25,4 +25,10 @@ $(document).ready(function() {
         var parent = $(this).parent().remove();
     });
 
+    //hide picture info
+    $('.container').on('click','a',function(event){
+        event.preventDefault();
+        $(this).closest('.container').find('img').fadeToggle(100)
+    });
+
 });
